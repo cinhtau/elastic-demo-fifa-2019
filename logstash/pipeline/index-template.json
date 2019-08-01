@@ -1,0 +1,263 @@
+{
+  "index_patterns": ["fifa-*"],
+  "settings": {
+    "number_of_shards": 1,
+    "number_of_replicas": 0
+  },
+  "mappings": {
+    "properties": {
+      "acceleration": {
+        "type": "short"
+      },
+      "age": {
+        "type": "short"
+      },
+      "aggression": {
+        "type": "short"
+      },
+      "agility": {
+        "type": "short"
+      },
+      "balance": {
+        "type": "short"
+      },
+      "ball_control": {
+        "type": "short"
+      },
+      "cam": {
+        "type": "keyword"
+      },
+      "cb": {
+        "type": "keyword"
+      },
+      "cdm": {
+        "type": "keyword"
+      },
+      "cf": {
+        "type": "keyword"
+      },
+      "club_logo": {
+        "type": "keyword"
+      },
+      "cm": {
+        "type": "keyword"
+      },
+      "composure": {
+        "type": "short"
+      },
+      "contract_valid_until": {
+        "type": "keyword"
+      },
+      "crossing": {
+        "type": "short"
+      },
+      "curve": {
+        "type": "short"
+      },
+      "dribbling": {
+        "type": "short"
+      },
+      "finishing": {
+        "type": "short"
+      },
+      "fk_accuracy": {
+        "type": "short"
+      },
+      "flag": {
+        "type": "keyword"
+      },
+      "gk_diving": {
+        "type": "short"
+      },
+      "gk_handling": {
+        "type": "short"
+      },
+      "gk_kicking": {
+        "type": "short"
+      },
+      "gk_positioning": {
+        "type": "short"
+      },
+      "gk_reflexes": {
+        "type": "short"
+      },
+      "heading_accuracy": {
+        "type": "short"
+      },
+      "height": {
+        "type": "keyword"
+      },
+      "interceptions": {
+        "type": "short"
+      },
+      "international_reputation": {
+        "type": "short"
+      },
+      "jersey_number": {
+        "type": "short"
+      },
+      "joined": {
+        "type": "keyword"
+      },
+      "jumping": {
+        "type": "short"
+      },
+      "lam": {
+        "type": "keyword"
+      },
+      "lb": {
+        "type": "keyword"
+      },
+      "lcb": {
+        "type": "keyword"
+      },
+      "lcm": {
+        "type": "keyword"
+      },
+      "ldm": {
+        "type": "keyword"
+      },
+      "lf": {
+        "type": "keyword"
+      },
+      "lm": {
+        "type": "keyword"
+      },
+      "loaned_from": {
+        "type": "keyword"
+      },
+      "long_passing": {
+        "type": "short"
+      },
+      "long_shots": {
+        "type": "short"
+      },
+      "ls": {
+        "type": "keyword"
+      },
+      "lw": {
+        "type": "keyword"
+      },
+      "lwb": {
+        "type": "keyword"
+      },
+      "marking": {
+        "type": "short"
+      },
+      "nationality": {
+        "type": "keyword"
+      },
+      "overall": {
+        "type": "short"
+      },
+      "penalties": {
+        "type": "short"
+      },
+      "position": {
+        "type": "keyword"
+      },
+      "positioning": {
+        "type": "short"
+      },
+      "potential": {
+        "type": "short"
+      },
+      "preferred_foot": {
+        "type": "keyword"
+      },
+      "ram": {
+        "type": "keyword"
+      },
+      "rb": {
+        "type": "keyword"
+      },
+      "rcb": {
+        "type": "keyword"
+      },
+      "rcm": {
+        "type": "keyword"
+      },
+      "rdm": {
+        "type": "keyword"
+      },
+      "reactions": {
+        "type": "short"
+      },
+      "real_face": {
+        "type": "keyword"
+      },
+      "release_clause": {
+        "type": "keyword"
+      },
+      "rf": {
+        "type": "keyword"
+      },
+      "rm": {
+        "type": "keyword"
+      },
+      "rs": {
+        "type": "keyword"
+      },
+      "rw": {
+        "type": "keyword"
+      },
+      "rwb": {
+        "type": "keyword"
+      },
+      "short_passing": {
+        "type": "short"
+      },
+      "shot_power": {
+        "type": "short"
+      },
+      "skill_moves": {
+        "type": "short"
+      },
+      "sliding_tackle": {
+        "type": "short"
+      },
+      "special": {
+        "type": "integer"
+      },
+      "sprint_speed": {
+        "type": "short"
+      },
+      "st": {
+        "type": "keyword"
+      },
+      "stamina": {
+        "type": "short"
+      },
+      "standing_tackle": {
+        "type": "short"
+      },
+      "strength": {
+        "type": "short"
+      },
+      "value": {
+        "type": "keyword"
+      },
+      "vision": {
+        "type": "short"
+      },
+      "volleys": {
+        "type": "short"
+      },
+      "wage": {
+        "type": "keyword"
+      },
+      "weak_foot": {
+        "type": "short"
+      },
+      "weight": {
+        "type": "keyword"
+      },
+      "work_rate": {
+        "type": "keyword"
+      },
+      "photo": {
+        "type": "keyword"
+      }
+    }
+  }
+}

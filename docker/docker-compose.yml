@@ -23,15 +23,14 @@ services:
       - "fifa-data:/usr/share/elasticsearch/data"
     ports:
       - 9200:9200
-    networks:
-      - esnet
+    networks: ['elastic-stack']
     restart: always
   ki01:
     image: docker.elastic.co/kibana/kibana:${ELASTIC_VERSION}
     container_name: kick-it
     hostname: kibana
     ports: ['5601:5601']
-    networks: ['esnet']
+    networks: ['elastic-stack']
     depends_on: ['es01']
     restart: on-failure
     environment:
@@ -42,4 +41,4 @@ volumes:
   fifa-data:
 
 networks:
-  esnet:
+  elastic-stack:

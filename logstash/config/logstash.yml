@@ -1,0 +1,6 @@
+pipeline:
+  batch:
+    size: 125
+    delay: 50
+node:
+  name: "node_fifa"
